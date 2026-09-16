@@ -1,13 +1,37 @@
 @charset "UTF-8";
 
+:root {
+    --cor-branco:#FFFFFF;
+    --cor-preto: #000000;
+    --cor-branco_vollem: #ebe9e8;
+    --cor-bege: #989087;
+    --cor-preto_vollem: #302e2a;
+    --cor-dourado: #ce9a5c;
+    --cor-terroso: #816340;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.buca {
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-branco_vollem);
+    align-items: center;
+}
+
+.botoes_menu {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.busca {
     background-image: url(imagens/faliliaSofaFeliz.jpg);
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100vh;
 }
