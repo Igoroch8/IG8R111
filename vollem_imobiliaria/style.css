@@ -18,6 +18,8 @@
 
 header {
     display: flex;
+    height: 80px;
+    padding: 2rem;
     justify-content: space-between;
     background-color: var(--cor-branco_vollem);
     align-items: center;
@@ -30,8 +32,10 @@ header {
 }
 
 .busca {
-    background-image: url(imagens/faliliaSofaFeliz.jpg);
+    background-image: url(imagens/teste2); /*Esta imagem não é licenciada, verificar o tamanho depois e pegar uma imagem tão boa quanto, só que licenciada.*/
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vh;
+    background-size: cover;
+    background-position:center;
+    width: 100vw; 
+    height: 70vh;
 }
